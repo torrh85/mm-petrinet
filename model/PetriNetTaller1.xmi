@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<pnet:PetriNet xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:pnet="sistemas.uniandes.edu.co/metamodels/petrinet">
+  <elements xsi:type="pnet:Place" name="P1"/>
+  <elements xsi:type="pnet:Transition" name="T1"/>
+  <elements xsi:type="pnet:InputArc" to="//@elements.1" from="//@elements.0"/>
+  <elements xsi:type="pnet:OutputArc" to="//@elements.5" from="//@elements.1"/>
+  <elements xsi:type="pnet:OutputArc" to="//@elements.6" from="//@elements.1"/>
+  <elements xsi:type="pnet:Place" name="P2"/>
+  <elements xsi:type="pnet:Place" name="P3"/>
+  <elements xsi:type="pnet:InputArc" to="//@elements.9" from="//@elements.5"/>
+  <elements xsi:type="pnet:InputArc" to="//@elements.9" from="//@elements.6"/>
+  <elements xsi:type="pnet:Transition" name="T2"/>
+  <elements xsi:type="pnet:Place" name="P4"/>
+  <elements xsi:type="pnet:OutputArc" to="//@elements.10" from="//@elements.9"/>
+  <elements xsi:type="pnet:OutputArc" to="//@elements.0" from="//@elements.9"/>
+</pnet:PetriNet>
